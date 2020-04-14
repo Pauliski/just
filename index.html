@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Covid-19 Estimator">
+  <meta name="author" content="Arokoola Paul">
+  <title>Document</title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home">SDGAssessment</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Search</i></button>
+      </form>
+    </div>
+  </div>
+  <h1>Covid-19 Estimator</h1>
+        
+  <form action="/" id="form1" class=" ml-5">
+    <br>
+    <input type="text" aria-label="1" class="input" placeholder="Population"  data-population=""><br><p></p>
+    <input type="text" aria-label="2" class="input" class="timeElapse" data-time-to-elapse="[days, weeks, year]" placeholder="TIme Elapse"><br><p></p>
+    <input type="text" aria-label="3" class="input" class="timeElapse" data-reported-cases="" placeholder="Number of reported cases"><br><p></p>
+    <input type="text" aria-label="4" class="input" class="timeElapse" data-total-hopital-bed="" placeholder="Number of available bed" ><br><p></p>
+    <input type="radio" aria-label="5" data-period-time="" name="period" id="day" value="day">
+    <label for="day" class="day">Day</label><br>
+    <input type="radio" data-period-time="period" name="period" id="week" value="week">
+    <label for="week" class="week">Week</label><br>
+    <input type="radio" data-period-time="period" name="period" id="month" value="month">
+    <label for="month" class="month">Month</label><br>
+    <button type="submit" form="form1" data-go-estimate="">Submit</button>
+</form>
+<footer class="footer">
+  <small class="nav-item"><a class="" href="/contact">Contact<span> us</span></a></small>
+      <small class="nav-item"><a class="" href="/">Terms<span> of use</span></a></small>
+      <small class="nav-item"><a class="" href="/">Privacy<span> policy</span></a></small>
+      <small class="copy">Copyright &copy; 2020 <a target="_blank" href="/" class="text-white">SDGAssessment</a>. 
+</footer>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
